@@ -1,0 +1,10 @@
+{
+    "name": "Mehedi Hasan",
+    "dept": "CSE",
+    "age": "21",
+    "edu":{
+        "SSC":"Complete",
+        "HSC":"Complete",
+        "BSC":"Running"
+    }
+}
