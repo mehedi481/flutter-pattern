@@ -3,6 +3,7 @@ import 'package:intl/intl.dart';
 import 'package:mehedi_pattern/helpers/size_config/size_config.dart';
 
 DateFormat dateFormat = DateFormat("dd-MM-yy");
+DateFormat timeFormat = DateFormat("hh:mm:ss");
 
 //WebView User Agent
 const String webViewUserAgent =
