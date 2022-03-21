@@ -28,11 +28,16 @@ ThemeData theme = ThemeData(
 AppBarTheme appBarTheme = AppBarTheme(
   backgroundColor: kPrimaryColor,
   elevation: 0.0,
-  textTheme: const TextTheme(
+  toolbarTextStyle: const TextTheme(
     headline6: const TextStyle(
       fontSize: 20,
     ),
-  ),
+  ).bodyText2,
+  titleTextStyle: const TextTheme(
+    headline6: const TextStyle(
+      fontSize: 20,
+    ),
+  ).headline6,
 );
 
 IconThemeData iconThemeData = IconThemeData(color: kPrimaryColor);
